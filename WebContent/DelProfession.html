@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+</head>
+<body>
+<img src='<c:url value="/files/Hydrangeas.jpg"></c:url>' />
+       <h1>MedGauge</h1>
+       <div>
+    	<form  method="post" action="delser" >
+    		<table>
+				<tr>
+					<td>Nom :</td>
+					<td><input type="text" name="nom_p"  value="" /></td>
+						<td></td>
+				</tr>
+				<tr>
+    				<td>Prenom :</td>
+    				<td><input type="text" name="prenom_p" value=""/></td>
+    				<td></td>
+    			</tr>
+    			<tr>
+    				<td>Categorie :</td>
+    				<td><input type="text" name="type_pr" value=""/></td>
+    				<td></td>
+    			</tr>
+    			<tr>
+    				<td>Password :</td>
+    				<td><input type="text" name="passwd" value=""/></td>
+    				<td></td>
+    			</tr>
+    			
+    		</table>
+    		   <input type="submit" name="action" value="del"/>
+    			<!--<td><input type="submit" name="action" value="edit"/></td>
+    			<td><input type="submit" name="action" value="delete"/></td>-->
+    	</form>
+    </div>
+</body>
+</html>
